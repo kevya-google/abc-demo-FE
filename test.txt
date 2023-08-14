@@ -1,0 +1,10 @@
+abc templates render \
+    -input="ar_location=us-docker.pkg.dev" \
+    -input="ar_repository=rest-server-demo-fe" \
+    -input="automation_service_account=gh-rest-server-sa@abc-restserver-dev-20eb35.iam.gserviceaccount.com" \
+    -input="cr_service=rest-server-demo-fe" \
+    -input="project_id=abc-restserver-dev-20eb35" \
+    -input="region=us-west1" \
+    -input="wif_provider=projects/838597830772/locations/global/workloadIdentityPools/gh-wif-abc-restserver/providers/github-provider" \
+    -input="backend_url=https://rest-server-demo-5nsxs6u22q-uw.a.run.app/" \
+    github.com/abcxyz/abc.git//t/react_template
